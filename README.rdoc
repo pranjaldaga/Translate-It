@@ -1,4 +1,4 @@
-= Translate_It 
+= Translate-It 
 
 == Description
 Translate-It translates a given string from one given language to another using Google APIs.
