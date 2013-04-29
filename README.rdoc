@@ -1,0 +1,24 @@
+Translate-It
+============
+
+== About
+Translate-It translates a given string from one given language to another using Google APIs.
+
+== Installation
+
+gem install Translate-It
+
+== Usage 
+
+  require 'rubygems' 
+  require 'translator' 
+
+  #To translate 'Hello World' to Hindi
+  tr = Translator.new()
+  tr.translate( 'Hello, World', 'hi')     #=> "नमस्ते, दुनिया"
+
+  #To translate "नमस्ते, दुनिया" to English
+  tr.translate('नमस्ते, दुनिया', 'en','hi')       #=> "Hello World"
+
+  #From Unknown language to english, from 0.1.2
+  tr.to_en('नमस्ते, दुनिया')                    #=> "Hello World"
