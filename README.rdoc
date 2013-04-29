@@ -1,7 +1,6 @@
-Translate-It
-============
+= Translate_It 
 
-== About
+== Description
 Translate-It translates a given string from one given language to another using Google APIs.
 
 == Installation
